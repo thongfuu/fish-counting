@@ -15,7 +15,7 @@ ComponentTechnologyDescriptionModel ArchitectureYOLOv8 (Ultralytics)Used yolov8n
 graph TD
     A["Download Dataset (Roboflow)"] --> B["Data Preparation"]
     B --> C["Train YOLOv8n Model"]
-    C -->|80 Epochs| D["💾 Weights: best.pt"]
+    C -->|80 Epochs| D["Weights: best.pt"]
     D --> E["Input Video"]
     E --> F["Inference & Detection"]
     F --> G{"Is Class == 'Fish'?"}
