@@ -66,5 +66,13 @@ The output video includes:
 - Confidence Score: Probability score for each detection.
 - Total Count: A real-time counter displayed at the top-left of the frame.
 
+<img width="366" height="482" alt="fish-count" src="https://github.com/user-attachments/assets/644f0d35-7a5f-4ad8-b94e-7cac5d7a154b" />
+
+<img width="366" height="482" alt="fish-count-2" src="https://github.com/user-attachments/assets/3d29be10-f74f-4974-9385-71a7e40e7b11" />
+
+<img width="366" height="482" alt="fish-count-3" src="https://github.com/user-attachments/assets/dcb505ab-3d69-4d90-b7c6-52ad845febe6" />
+
+<img width="366" height="482" alt="fish-count-4" src="https://github.com/user-attachments/assets/b2a4b0cb-a499-4068-9966-a807803a76e2" />
+
 ## Note on Logic
 Currently, the counting logic works on a per-frame basis (it counts how many fish are visible in the current frame). It does not track unique IDs across frames (e.g., if a fish swims out and back in, it might be counted again).
